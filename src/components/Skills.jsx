@@ -9,6 +9,8 @@ import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import mm from '../assets/mm.PNG';
+import R from '../assets/R.PNG';
 
 const Skills = () => {
   return (
@@ -20,7 +22,7 @@ const Skills = () => {
               <p className='py-4'>// These are the technologies I've worked with</p>
           </div>
 
-          <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-8'>
+          <div className='w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
@@ -56,6 +58,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
                   <p className='my-4'>PHP</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={R} alt="HTML icon" />
+                  <p className='my-4'>REACT REDUX</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={mm} alt="HTML icon" />
+                  <p className='my-4'>MATERIAL UI</p>
               </div>
           </div>
       </div>

@@ -11,9 +11,10 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Contact = () => {
   return (
-   <div name='contact' className='w-full h-screen bg-[#0a192f] text-gray-300 '>
+   <div name='contact' className='w-full h-full bg-[#0a192f] text-gray-300 pt-[650px]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full  items-center  ' >
+        
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-pink-600 justify-center '>Contact Me</p>
               <p className='py-4'>Let's get to work</p>
@@ -43,11 +44,11 @@ const Contact = () => {
                
               <a
               className='flex  items-center w-full text-gray-300 justify-center'
-              href='/'
+              href='https://wa.link/j9wqk3'
             >
               <FaWhatsapp size={40} className=' mt-3' />
             </a>
-            <a href='/'> <p className='my-4  font-bold  ml-6  ' >Just a text away</p></a>  
+            <a href='https://wa.link/j9wqk3'> <p className='my-4  font-bold  ml-6  ' >Just a text away</p></a>  
               </div>
              
              
